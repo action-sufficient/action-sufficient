@@ -1,0 +1,48 @@
+# Python build and cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Editors, OS metadata, and local coding-agent state
+.DS_Store
+.idea/
+.vscode/
+.agents/
+.codex/
+*~
+*.swp
+
+# Notebook-generated state and local scratch notebooks
+.ipynb_checkpoints/
+/ignore/
+
+# Experiment outputs and external datasets
+exp/
+wandb/
+logs/
+results/
+checkpoints/
+videos/
+data/
+datasets/
+*.log
+events.out.tfevents.*
+
+# Locally generated task and temporary directories
+/cube*/
+/humanoidmaze*/
+/puzzle*/
+/tmp*/
